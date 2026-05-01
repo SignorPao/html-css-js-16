@@ -1,0 +1,33 @@
+/* 
+==============================
+  VARIABLES
+==============================
+*/
+:root {
+  /* Colors */
+  --color-text: #000000;
+  /* Fonts & Typography */
+  --font-main: ;
+  /* Length values */
+  /* Other values */
+}
+
+/* 
+==============================
+  GLOBAL BASE
+==============================
+*/
+body {
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+* {
+  border: 1px solid red;
+}
+
+/* 
+==============================
+  REUSABLE CLASSES
+==============================
+*/

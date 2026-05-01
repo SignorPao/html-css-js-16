@@ -1,0 +1,217 @@
+/* 
+==============================
+  RESET STYLES
+==============================
+*/
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+::-moz-selection {
+  background-color: #b3d4fc;
+  color: #000000;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: #b3d4fc;
+  color: #000000;
+  text-shadow: none;
+}
+
+input:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+svg {
+  display: inline-block;
+  max-width: 100%;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+
+input,
+textarea,
+select {
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+} */
+
+
+
+
+
+/* 
+==============================
+  RESET & BASE STYLES
+==============================
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+::selection {
+  background-color: #b3d4fc;
+  color: #000000;
+  text-shadow: none;
+}
+
+:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh; /* Корректная высота в мобильных Safari/Chrome */
+  -webkit-font-smoothing: antialiased;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+svg {
+  display: inline-block;
+  max-width: 100%;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+input,
+textarea,
+select {
+  box-shadow: none;
+  border: none;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+input:focus:not(:focus-visible),
+textarea:focus:not(:focus-visible),
+select:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Убираем нативные стили iOS/Safari */
+button,
+input,
+select,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
