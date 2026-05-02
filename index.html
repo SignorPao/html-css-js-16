@@ -1,8 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Preloading critical resources -->
+    <link rel="preload" href="/assets/css/style.css" as="style" />
+    <!-- <link rel="preload" href="/assets/js/main.js" as="script" /> -->
 
     <!-- Fonts -->
 
@@ -61,6 +65,24 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <p>hello</p>
+    <header>
+      <p>header</p>
+    </header>
+
+    <main>
+      <p>main</p>
+    </main>
+
+    <footer>
+      <p>footer</p>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script defer src="/assets/js/main.js"></script>
+    <noscript>
+      <p style="width: 100%; text-align: center">
+        Your browser doesn't support JavaScript.
+      </p>
+    </noscript>
   </body>
 </html>

@@ -5,7 +5,11 @@
 */
 :root {
   /* Colors */
-  --color-text: #000000;
+  --color-text: #161513;
+  --color-dark: #312d2a;
+  --color-tint: #f1efed;
+  --color-brand: #c74634;
+  --color-link: #006b8f;
   /* Fonts & Typography */
   --font-main: ;
   /* Length values */
