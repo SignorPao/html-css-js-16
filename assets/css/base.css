@@ -12,6 +12,9 @@
   --color-link: #006b8f;
   /* Fonts & Typography */
   --font-main: ;
+  --font-1: "Voces", sans-serif;
+  --font-2: "Source Sans 3", sans-serif;
+  --font-3: "Mulish", sans-serif;
   /* Length values */
   /* Other values */
 }
@@ -22,7 +25,11 @@
 ==============================
 */
 body {
-  font-family: var(--font-main);
+  /* font-family: var(--font-main); */
+  font-family: var(--font-2);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
   color: var(--color-text);
 }
 
