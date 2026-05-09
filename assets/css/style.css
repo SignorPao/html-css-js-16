@@ -6,6 +6,24 @@
   HEADER
 ==============================
 */
+header {
+}
+.header__wrapper {
+}
+.header__navigation {
+  display: flex;
+}
+.header__navigation--menu-logo_wrapper {
+  display: flex;
+}
+.header__navigation--menu {
+}
+.header__navigation--logo {
+}
+.header__navigation--tablet-and-pc-searchbar_wrapper {
+}
+.header__navigation--right-buttons_wrapper {
+}
 
 /* 
 ==============================
