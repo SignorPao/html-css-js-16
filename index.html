@@ -114,63 +114,101 @@
       </div>
     </header> -->
 
-    <header>
+    <header class="header">
       <div class="header__wrapper">
-        <nav class="header__navigation">
-          <div class="header__navigation--menu-logo_wrapper">
-            <!-- Menu burger button -->
-            <button
-              class="header__navigation--menu"
-              aria-label="Open menu"
-              aria-expanded="false"
-              type="button"
-            >
-              <svg
-                class="header-menu-burger"
-                aria-hidden="true"
-                focusable="false"
+        <div class="header__navigation">
+          <nav class="header__navigation--left-block">
+            <div class="header__navigation--menu-logo_wrapper">
+              <!-- Menu burger button -->
+              <button
+                class="header-btn header__navigation--menu"
+                aria-label="Open menu"
+                aria-expanded="false"
+                type="button"
               >
-                <use href="assets/icons/menu.svg#header-menu"></use>
+                <svg
+                  class="header-menu-burger"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <use href="assets/icons/menu.svg#header-menu"></use>
+                </svg>
+              </button>
+
+              <!-- Logotype -->
+              <a href="/" class="header__navigation--logo" aria-label="Main">
+                <svg
+                  class="header-logo-mobile"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <use href="assets/icons/logo-mobile.svg#logo-mobile"></use>
+                </svg>
+                <svg
+                  class="header-logo-pc"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <use href="assets/icons/logo-pc.svg#logo-pc"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="header__navigation--tablet-and-pc-searchbar_wrapper">
+              <form action="/search" method="get" role="search">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input
+                  id="search-input"
+                  type="search"
+                  name="q"
+                  placeholder="Search"
+                />
+                <button type="submit" aria-label="Search">Search</button>
+              </form>
+            </div>
+          </nav>
+
+          <nav class="header__navigation--right-block">
+            <button
+              type="button"
+              class="header-btn mobile-search-btn"
+              aria-label="Search button for mobile"
+            >
+              <svg class="mobile-search-icon" aria-hidden="true">
+                <use href="assets/icons/search.svg#search"></use>
               </svg>
             </button>
 
-            <!-- Logotype -->
-            <a href="/" class="header__navigation--logo" aria-label="Main">
-              <svg
-                class="header-logo-mobile"
-                aria-hidden="true"
-                focusable="false"
-              >
-                <use href="assets/icons/logo-mobile.svg#logo-mobile"></use>
+            <button
+              type="button"
+              class="header-btn language-btn"
+              aria-label="Change language"
+            >
+              <svg class="language-icon" aria-hidden="true">
+                <use href="assets/icons/language.svg#language"></use>
               </svg>
-              <svg class="header-logo-pc" aria-hidden="true" focusable="false">
-                <use href="assets/icons/logo-pc.svg#logo-pc"></use>
+            </button>
+
+            <button type="button" class="header-btn user-btn" aria-label="User">
+              <svg class="user-icon" aria-hidden="true">
+                <use href="assets/icons/user.svg#user"></use>
               </svg>
-            </a>
-          </div>
+            </button>
 
-          <div class="header__navigation--tablet-and-pc-searchbar_wrapper">
-            <form action="/search" method="get" role="search">
-              <label for="search-input" class="visually-hidden">Search</label>
-              <input
-                id="search-input"
-                type="search"
-                name="q"
-                placeholder="Search"
-              />
-              <button type="submit" aria-label="Search">Search</button>
-            </form>
-          </div>
-
-          <div class="header__navigation--right-buttons_wrapper">
-            <button type="button" class="btn btn-login">Войти</button>
-            <button type="button" class="btn btn-cart">Корзина</button>
-          </div>
-        </nav>
+            <button
+              type="button"
+              class="header-btn contact-btn"
+              aria-label="Contact"
+            >
+              <svg class="contact-icon" aria-hidden="true">
+                <use href="assets/icons/contact.svg#contact"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
       </div>
     </header>
 
-    <main>
+    <main class="main">
       <p>main</p>
     </main>
 
