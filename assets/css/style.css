@@ -16,15 +16,25 @@
 .header__navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header__navigation--left-block{
+  /* display: flex; */
 }
 
 .header__navigation--menu-logo_wrapper {
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .header-btn {
   width: 24px;
   height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__navigation--menu {
@@ -39,11 +49,13 @@ svg {
 }
 
 .header__navigation--logo {
+  /* max-height: 29px; */
 }
 
 .header-logo-mobile {
   width: 32px;
   height: 21px;
+  color: var(--color-brand-1);
 }
 
 .header-logo-pc {
@@ -52,6 +64,11 @@ svg {
 
 .header__navigation--tablet-and-pc-searchbar_wrapper {
   display: none;
+}
+
+.header__navigation--right-block{
+  display: flex;
+  gap: 16px;
 }
 
 .header__navigation--right-buttons_wrapper {
