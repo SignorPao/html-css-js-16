@@ -11,6 +11,7 @@
 
 .header__wrapper {
   padding: 18px 24px;
+  height: 72px; // restart from thisj
 }
 
 .header__navigation {
